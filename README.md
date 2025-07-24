@@ -1,4 +1,4 @@
-# MIPS Communication With IO By UART Protocol in Logisim
+# MIPS Communication With IO By UART Protocol In Logisim
 
 A custom UART-inspired serial communication protocol implementation for a single-cycle MIPS processor in Logisim, enabling I/O device synchronization.
 
