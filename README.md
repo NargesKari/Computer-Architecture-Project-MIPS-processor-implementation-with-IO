@@ -1,7 +1,4 @@
-# Computer-Architecture-Project-MIPS-processor-implementation-with-IO
-# MIPS UART Communication Protocol in Logisim
-
-[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+# MIPS Communication With IO By UART Protocol in Logisim
 
 A custom UART-inspired serial communication protocol implementation for a single-cycle MIPS processor in Logisim, enabling I/O device synchronization.
 
@@ -19,4 +16,6 @@ This project implements:
 ## Key Features
 
 ✅ **Custom I/O Instructions**  
-Added LED, TTY, and KB operations to MIPS ISA  
+- Added LED, TTY, and KB operations to MIPS ISA 
+- MIPS-I/O Communication: Control LEDs, TTY display, and keyboard input using custom MIPS instructions programmed in ROM.
+- Ready-to-Run Demos: Type "fib" to display the sequence on TTY and light up LEDs with Fibonacci numbers (1, 1, 2, 3, 5...).
