@@ -16,26 +16,20 @@ This project implements:
 ## Key Features
 
 - Added LED, TTY, and KB operations to MIPS ISA 
-- MIPS-I/O Communication
-- Ready-to-Run Demos
+- MIPS-I/O communication
+- Ready to run tests
 
 ## Examples
 
-[Fibonacci Demo](assets/fib.MP4)
-- .
+- Fibonacci test
+![](assets/fib-ezgif.com-video-to-gif-converter.gif)
 
-https://github.com/NargesKari/Computer-Architecture-Project-MIPS-processor-implementation-with-IO/assets/fib.MP4
+- KeyBoard test
+![](assets/kb_word-ezgif.com-video-to-gif-converter.gif)
 
-- .
- 
-![Keyboard Demo](assets/kb_word.mp4)
+- Led On Off test
+![](assets/led_on_off-ezgif.com-video-to-gif-converter.gif)
 
-![LED On Of Demo](assets/led_on_of.mp4)
-
-![Shell Demo](assets/shell.mp4)
-
-
-## Report
-
-You can find the detailed LaTeX report [here](https://latex.sharif.edu/read/fsjxgtxcnrzk).
+- Shell test!
+![](assets/shell.gif)
 
