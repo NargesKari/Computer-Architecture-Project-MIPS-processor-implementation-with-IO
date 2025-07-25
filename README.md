@@ -33,3 +33,9 @@ https://github.com/NargesKari/Computer-Architecture-Project-MIPS-processor-imple
 ![LED On Of Demo](assets/led_on_of.mp4)
 
 ![Shell Demo](assets/shell.mp4)
+
+
+## Report
+
+You can find the detailed LaTeX report [here](https://latex.sharif.edu/read/fsjxgtxcnrzk).
+
