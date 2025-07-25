@@ -21,7 +21,7 @@ This project implements:
 
 ## Examples
 
-![Fibonacci Demo](assets/fib.mp4)
+[Fibonacci Demo](assets/fib.MP4)
 - .
 
 https://github.com/NargesKari/Computer-Architecture-Project-MIPS-processor-implementation-with-IO/assets/fib.MP4
