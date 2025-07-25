@@ -22,6 +22,7 @@ This project implements:
 ## Examples
 
 ![Fibonacci Demo](assets/fib.mp4)
+https://github.com/NargesKari/Computer-Architecture-Project-MIPS-processor-implementation-with-IO/blob/main/assets/fib.MP4
 
 ![Keyboard Demo](assets/kb_word.mp4)
 
