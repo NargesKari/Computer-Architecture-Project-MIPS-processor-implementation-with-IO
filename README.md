@@ -22,14 +22,22 @@ This project implements:
 ## Examples
 
 - Fibonacci test
+  
 ![](assets/fib-ezgif.com-video-to-gif-converter.gif)
 
 - KeyBoard test
+  
 ![](assets/kb_word-ezgif.com-video-to-gif-converter.gif)
 
 - Led On Off test
+  
 ![](assets/led_on_off-ezgif.com-video-to-gif-converter.gif)
 
 - Shell test!
+
 ![](assets/shell.gif)
+
+## Report
+
+You can find the detailed LaTeX report [here](https://latex.sharif.edu/read/fsjxgtxcnrzk).
 
