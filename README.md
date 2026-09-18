@@ -1,43 +1,43 @@
 # MIPS Communication With IO By UART Protocol In Logisim
 
-A custom UART-inspired serial communication protocol implementation for a single-cycle MIPS processor in Logisim, enabling I/O device synchronization.
+A single-cycle MIPS processor built in Logisim with custom ISA extensions and a UART-inspired serial protocol for talking to a keyboard, an LED array, and a TTY display.
 
-## Project Overview
+## What it does
 
-This project implements:
-- A simplified UART-like protocol for MIPS processors
-- Hardware-level synchronization between:
-  - Keyboard input
-  - TTY text display 
-  - LED output
-- Custom MIPS instructions for I/O operations
-- Serial data transfer using shift registers
+- Extends the base MIPS instruction set with dedicated I/O instructions (`led`, `tty`, `kb`) alongside the standard ALU/branch/memory instructions.
+- Implements shift-register-based serial transfer to synchronize the CPU with external devices, rather than memory-mapped I/O.
+- Test programs are hand-assembled to raw binary and run directly on the circuit: a Fibonacci sequence displayed on LEDs, character output to a TTY, reading a full word typed on a keyboard, and a small interactive shell built entirely out of these primitives.
 
-## Key Features
+## Tech stack
 
-- Added LED, TTY, and KB operations to MIPS ISA 
-- MIPS-I/O communication
-- Ready to run tests
+Logisim (schematic and simulation), hand-assembled MIPS machine code (no assembler, binary written directly with comments).
 
-## Examples
+## Getting started
 
-- Fibonacci test
-  
-![](assets/fib-ezgif.com-video-to-gif-converter.gif)
+Open `schematic.circ` in Logisim, load one of the test programs from `tests/` into instruction memory, and run the simulation.
 
-- KeyBoard test
-  
-![](assets/kb_word-ezgif.com-video-to-gif-converter.gif)
+## Demos
 
-- Led On Off test
-  
-![](assets/led_on_off-ezgif.com-video-to-gif-converter.gif)
+Fibonacci test:
 
-- Shell test!
+![Fibonacci test](assets/fib-ezgif.com-video-to-gif-converter.gif)
 
-![](assets/shell.gif)
+Keyboard test:
+
+![Keyboard test](assets/kb_word-ezgif.com-video-to-gif-converter.gif)
+
+LED on/off test:
+
+![LED on/off test](assets/led_on_off-ezgif.com-video-to-gif-converter.gif)
+
+Shell test:
+
+![Shell test](assets/shell.gif)
 
 ## Report
 
-You can find the detailed LaTeX report [here](https://latex.sharif.edu/read/fsjxgtxcnrzk).
+Full write-up: [LaTeX report](https://latex.sharif.edu/read/fsjxgtxcnrzk)
 
+## License
+
+MIT — see [LICENSE](LICENSE).
